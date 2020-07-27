@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="stylePayment.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3622d4f3a3.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <form>
+        <h1>CONTACT:</h1>
+        <div class="form-group textbox">
+            <input type="text" class="form-control " placeholder="Name" id="">
+        </div>
+        
+        <div class="form-group textbox">
+            <input type="number" class="form-control" placeholder="Contact Number" id="">
+        </div>
+        
+        <div class="form-group textbox">
+            <input type="email" class="form-control" placeholder="Email ID" id="">
+        </div>
+
+
+        <hr>
+        <h1>ADDRESS:</h1>
+        <div class="form-group textbox">
+            <input type="text" class="form-control" placeholder="Pin Code" id="">
+        </div>
+        
+        <div class="form-group textbox">
+            <input type="text" class="form-control" placeholder="Address(House No,Building,Street,Area)" id="">
+        </div>
+
+        <div class="form-group textbox">
+            <input type="text" class="form-control" placeholder="Locality/Town" id="">
+        </div>
+
+        <div class="row">
+            <div class="form-group col-lg-6 textbox">
+                <input type="text" class="form-control" placeholder="City/District" id="">
+            </div>
+            
+            <div class="form-group col-lg-6 textbox">
+                <input type="text" class="form-control" placeholder="State" id="">
+    
+            </div>
+    
+        </div>
+        
+        <hr>
+        <h1>Payment Details:</h1>
+        <div class="form-group textbox">
+            <select class="custom-select ">
+                <option selected>Select Payment Type</option>
+                <option value="1">Pay on Delivery (Cash/Card/UPI)</option>
+                <option value="2">Credit/Debit Card</option>
+                <option value="3">Phone Pe/Google Pay/BHIM UPI</option>
+                <option value="4">E-Wallet</option>
+                <option value="5">Net Banking</option>
+            </select>
+        </div>
+        </div>
+        
+        
+       <button class="btn btn-outline-success"><a href="../Success/success.html">PLACE ORDER</a></button> 
+
+    </form>
+</body>
+</html>
