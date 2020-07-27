@@ -1,0 +1,37 @@
+.container {
+  margin: 2% 1%;
+}
+h1 {
+  color: gray;
+  border-bottom: solid #28a745;
+}
+h2 {
+  color: gray;
+  border-bottom: solid #28a745;
+  width: max-content;
+}
+.card {
+  margin-top: 2%;
+  padding: 1%;
+}
+#quantity {
+  text-align: center;
+  width: 20px;
+  border: solid #28a745 1px;
+}
+.order {
+  margin: 2% auto 2% 77%;
+}
+.card-footer {
+  height: 50px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+a {
+  color: lightgreen !important;
+  text-decoration: none !important;
+}
